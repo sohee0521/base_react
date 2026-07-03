@@ -14,28 +14,28 @@ export default function MusicEx() {
         </div>
       </div>
       <div className="text-center space-y-0.5">
-        <div className="w-[200px] h-[200px] bg-amber-100 mx-auto rounded-full"></div>
-        <h3 className="">Rude!</h3>
-        <h5 className=" color-white/50">Hearts to Hearts</h5>
+        <div className="w-[250px] h-[250px] bg-amber-100 mx-auto rounded-full mb-4"></div>
+        <h3 className="text-2xl">Rude!</h3>
+        <h5 className=" text-md  text-white/70">Hearts to Hearts</h5>
       </div>
-      <div className="text-center space-y-0.5">
+      <div className="text-md text-center space-y-0.5">
         <p className=" text-white/50">날 향한 시선에 “Hate me?”</p>
         <p className="">누가 뭐래도 Can’t change me</p>
         <p className="text-white/50">
           지금 이대로 좋아 나다울 때 누구보다 눈부셔 난
         </p>
       </div>
-      <div>
-        <div className="relative w-[80%] h-[10px] flex flex-col mx-auto">
+      <div className="w-[80%] mx-auto">
+        <div className="relative w-full h-[10px] flex flex-col">
           <div className="w-full h-[3px] bg-white/50 rounded-2xl my-auto"></div>
           <div className="absolute w-full top-0 left-0 flex items-center">
             <div className="w-[30%] h-[3px] bg-lime-400 rounded-bl-2xl rounded-tl-2xl"></div>
             <div className="w-[10px] h-[10px] bg-lime-400 rounded-2xl"></div>
           </div>
         </div>
-        <div>
-          <p></p>
-          <p></p>
+        <div className="text-sm w-full flex justify-between text-white/50">
+          <p>0:28</p>
+          <p>2:45</p>
         </div>
       </div>
     </div>
