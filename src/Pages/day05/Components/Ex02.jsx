@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { sites } from "../js/data";
-import { tabMenu } from "../js/data";
 
 export default function Ex02() {
   const [filter, setFilter] = useState("all");
